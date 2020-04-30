@@ -1,4 +1,4 @@
-function findBy(one, two) {
+export default function findBy(one, two) {
   const res = [
     {name: 'маг', type: 'character', description: 'Персонаж, обладающий магическими способностями'},
     {name: 'заклинание', type: 'attack', description: 'Атака магическим заклинанием'},
@@ -19,6 +19,6 @@ function findBy(one, two) {
   }
   }
   findBy('type', 'attack')
-  findBy('name', 'маг')
+  // findBy('name', 'маг')
   
   
