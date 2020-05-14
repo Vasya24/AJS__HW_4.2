@@ -1,4 +1,4 @@
-export default function findBy(key, value) {
+function findBy(key, value) {
     return function(e) {
       let keys = Object.keys(e)
 let vals = Object.values(e)
@@ -7,3 +7,5 @@ if (keys.includes(key) == true && vals.includes(value) == true) {
 }
 }
 }
+
+export { findBy }
