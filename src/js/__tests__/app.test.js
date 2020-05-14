@@ -1,4 +1,4 @@
-import findBy from '../app'
+import { results } from '../app'
 
 test('Comapring', () => {
     expect('type').toBe('type')
